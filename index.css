@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  font-family: arial,sans-serif;
+}
+
+#gird-container{
+  width: 20%;
+  margin: 40px auto;
+}
+
+#gird-container .box {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  vertical-align: top;
+  text-align: center;
+  padding: 25px;
+  user-select: none;
+}
+
+#result{
+  text-align: center;
+  font-size: 20px;
+  color: green;
+}
+.reset_button{
+  display: none;
+}
